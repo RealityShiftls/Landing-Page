@@ -22,7 +22,7 @@ export default function Header() {
         className="absolute inset-0.5 overflow-hidden rounded-2xl md:rounded-4xl"
       >
         <Image
-          src="/drone.jpg"
+          src="/hologram.png"
           alt="Agricultural drone flying over a farm"
           fill
           priority

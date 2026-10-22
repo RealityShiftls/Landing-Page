@@ -83,7 +83,7 @@ export default function More() {
             className="relative h-[280px] overflow-hidden rounded-2xl md:h-[520px]"
           >
             <Image
-              src="/drone.jpg"
+              src="/drone.png"
               alt="Drone technology for agriculture, mining and powerline services"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

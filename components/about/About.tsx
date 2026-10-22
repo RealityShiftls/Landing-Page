@@ -36,13 +36,13 @@ export default function About() {
         >
           <div className="relative min-h-[360px] overflow-hidden rounded-3xl bg-gray-100 sm:min-h-[460px]">
             <Image
-              src="/about.jpg"
+              src="/neon.png"
               alt="Technology and innovation in action"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 hover:scale-105"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#102c45]/60 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#102c45]/95 via-transparent to-transparent" />
 
             <div className="absolute bottom-6 left-6 right-6 text-white">
               <p className="text-xs font-semibold uppercase tracking-[0.25em] text-white/75">
