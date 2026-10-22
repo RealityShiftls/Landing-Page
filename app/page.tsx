@@ -4,7 +4,7 @@ import Header from "@/components/Header/Header";
 import Partner from "@/components/partners/Partner";
 import More from "@/components/services/More";
 import Services from "@/components/services/services";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -12,9 +12,9 @@ export default function Home() {
       <div>
         <Header />
         <Partner/>
-        <Services />
-        <More/>
         <About/>
+        <Services />
+        <More/>     
         <Contact />
       </div>
     </main>

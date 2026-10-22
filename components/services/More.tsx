@@ -160,20 +160,6 @@ export default function More() {
               })}
             </motion.div>
 
-            {/* Animated Call to Action */}
-            <motion.div variants={itemVariants} className="mt-8">
-              <Link
-                href="#services"
-                className="group inline-flex items-center gap-2 rounded-xl bg-[#1e466b] px-6 py-3 font-semibold text-white transition-colors hover:bg-[#295b86]"
-              >
-                Explore Our Services
-
-                <ArrowRight
-                  size={18}
-                  className="transition-transform duration-300 group-hover:translate-x-1"
-                />
-              </Link>
-            </motion.div>
           </motion.div>
         </div>
       </section>
