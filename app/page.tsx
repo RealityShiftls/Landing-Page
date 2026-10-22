@@ -4,6 +4,7 @@ import Header from "@/components/Header/Header";
 import Partner from "@/components/partners/Partner";
 import More from "@/components/services/More";
 import Services from "@/components/services/services";
+import VisionMission from "@/components/services/Vission";
 
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
         <Partner/>
         <About/>
         <Services />
-        <More/>     
+        <More/>   
+        <VisionMission/>  
         <Contact />
       </div>
     </main>
